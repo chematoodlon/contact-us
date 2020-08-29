@@ -304,10 +304,10 @@ z-index:1;
 	filter:grayscale(100) brightness(0);
 	z-index:0;
 	}
-	#bgRightPic{
+	#bgRightPic1{
 	display:block;
 	position:absolute;
-	top:140vw;
+	top:120vw;
 	width:33.75vw;
 	margin-top:-33.75vw;
 	margin-left:66.25vw;
@@ -318,10 +318,21 @@ z-index:1;
 	#bgLeftPic{
 	display:block;
 	position:absolute;
-	top:315.55vw;
+	top:242vw;
 	width:33.75vw;
 	margin-top:-33.75vw;
 	margin-right:66.25vw;
+	opacity:35%;
+	filter:grayscale(100) brightness(0);
+	z-index:0;
+	}
+	#bgRightPic2{
+	display:block;
+	position:absolute;
+	top:365vw;
+	width:33.75vw;
+	margin-top:-33.75vw;
+	margin-left:66.25vw;
 	opacity:35%;
 	filter:grayscale(100) brightness(0);
 	z-index:0;
