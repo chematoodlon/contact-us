@@ -232,7 +232,7 @@ z-index:10;
 	z-index:10;	
 	flex-direction:column;
 	align-items:flex-end;
-	margin-top:-9vw;
+	margin-top:-5.5vw;
 	margin-left:-50vw;		
 	}
 		#menuCloseButton{
@@ -245,7 +245,6 @@ z-index:10;
 			width:6vw;
 			cursor:pointer;
 			margin-right:0vw;
-			filter:grayscale(100) brightness(0);
 			}
 		
 		#mliButtonsM{
@@ -263,7 +262,7 @@ z-index:10;
 		height:135vw;
 		justify-content: space-evenly;
 		box-shadow: 0 0 1vw 0vw rgba(255,208,90,0.5);
-		border:solid 0.25vw #000;
+		border:solid 0.25vw #a03737;
 		font-size:3.556vw;
 		}
 			#mliButtonsM li{
@@ -284,7 +283,6 @@ z-index:10;
 				padding-top:1.5vw;
 				padding-bottom:1.5vw;
 				}
-				#ajttitem{color:#fff!important;}
 
 
 #foreground{
@@ -306,6 +304,29 @@ z-index:1;
 	filter:grayscale(100) brightness(0);
 	z-index:0;
 	}
+	#bgRightPic{
+	display:block;
+	position:absolute;
+	top:140vw;
+	width:33.75vw;
+	margin-top:-33.75vw;
+	margin-left:66.25vw;
+	opacity:35%;
+	filter:grayscale(100) brightness(0);
+	z-index:0;
+	}
+	#bgLeftPic{
+	display:block;
+	position:absolute;
+	top:315.55vw;
+	width:33.75vw;
+	margin-top:-33.75vw;
+	margin-right:66.25vw;
+	opacity:35%;
+	filter:grayscale(100) brightness(0);
+	z-index:0;
+	}
+	
 	#pageHeading{
 	display:block;
 	margin-top:4vw;
@@ -356,16 +377,27 @@ z-index:1;
 		}
 	
 	#contactData{
-	display:block;	
+	display:flex;
+	flex-direction:column;
+	width:100vw;
+	align-items:center;	
 	list-style-type:none;
+	margin-top:7.5vw;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	padding:0;
 	color:#ffd05a;
 	z-index:1;
 	}
 		.contact{
 		display:flex;
 		justify-items:space-between;
-		width:80vw;
+		width:65vw;
 		margin-top:2.5vw;
+		margin-left:0;
+		margin-right:0;
+		padding:0;
 		}
 			.contactID{
 			display:block;
@@ -415,107 +447,31 @@ z-index:1;
 					margin-top:-2px;
 					z-index:20;
 					}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	#footer{
-	display:block;
-	position:absolute;
-	top:197.5vw;		
-	list-style-type:none;
+		
+	#creditsLove{
+	display:block;	
 	width:100vw;
-	height:70vw;
-	background-color:#1E0E06;
-	margin:0%;
-	padding-left:0vw;
-	padding-right:0vw;
-	padding-bottom:0vw;
+	color:#ffd05a;
+	font-size:2.5vw;
+	font-weight:300;
+	letter-spacing:0.2vw;
+	margin-top:13.5vw;
+	padding-bottom:3.5vw;
+	padding-left-right:0vw;
+	text-align: center;	
 	z-index:10;
 	}
-		#logoBottom{
-		display:block;
-		float:left;
-		margin-top:14.5vw;
-		margin-left:15vw;
-		margin-right:15vw;
-		width:30vw;
-		text-align:center;
-		font-family:"Mandala";
-		font-size:3.6vw;
-		color:#B9EDDB;
+		#loveImg{
+		width:4vw;		
 		}
-			#logoBottomPic{}
-		#middleListBottom{
-		display:block;
-		float:right;
-		margin-top:8vw;
-		margin-right:15vw;					
-		}
-			.mlbItem{
-			display:block;
-			margin-bottom:3vw;
-			font-size:2.75vw;
-			width:25vw;
-			color:#B9EDDB;
-			}						
-			#bottomMenuDividerM{
-			display:block;
-			float:right;
-			width:25vw;
-			margin-right:-25vw;
-			margin-top:34vw;
-			height:0.3906vw;
-			background-color:#B9EDDB;
-			}	
-			
-		#middleListRight{
-		display:block;					
-		float:right;
-		margin-top:37.316vw;
-		margin-right:-25vw;		
-		}
-			.mlrItem{
-			display:block;
-			margin-bottom:3vw;
-			font-size:2.75vw;
-			width:25vw;
-			color:#B9EDDB;
-			}
-			#fbIcon{
-			padding-top:1vw;
-			width:6.5vw;
-
-			}		
-		#creditsLove{
-		display:block;	
-		width:100vw;
-		color:#b9eddb;
-		font-size:2.5vw;
-		font-weight:300;
-		letter-spacing:0.2vw;
-		margin-top:70vw;
-		padding-bottom:5vw;
-		padding-left-right:0vw;
-		text-align: center;	
-		background-color:#1E0E06;
-		z-index:10;
-		}
-			#loveImg{
-			width:4vw;
-			
-			}
+	#bgBottomPic{
+	display:block;	
+	width:67.5vw;
+	margin-top:-33.75vw;
+	opacity:35%;
+	filter:grayscale(100) brightness(0);
+	z-index:0;
+	}	
 
 }
 
